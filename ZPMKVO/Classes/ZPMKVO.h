@@ -5,8 +5,8 @@
 //  Created by Roy on 2018/4/11.
 //
 
-#ifndef ZPMKVO_h
-#define ZPMKVO_h
+#import <Foundation/Foundation.h>
+
+typedef void(^ZPMObservingBlock)(id observedObject, NSString *observedKey, id oldValue, id newValue);
 
 
-#endif /* ZPMKVO_h */

@@ -1,19 +1,19 @@
 //
-//  ZPMFirstViewController.m
+//  ZPMSendUnreadViewController.m
 //  ZPMKVO_Example
 //
 //  Created by Roy on 2018/4/12.
 //  Copyright © 2018年 Wu-Dong-Hui. All rights reserved.
 //
 
-#import "ZPMFirstViewController.h"
+#import "ZPMSecondViewController.h"
 #import "Marco.h"
 
-@interface ZPMFirstViewController ()
+@interface ZPMSecondViewController ()
 
 @end
 
-@implementation ZPMFirstViewController
+@implementation ZPMSecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,17 +31,10 @@
 }
 
 - (void)setTabBadge:(NSString *)badge {
+    
     self.navigationController.tabBarItem.badgeValue = badge;
 }
-
-
-- (void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-- (IBAction)sendRead:(id)sender {
-    [[NSNotificationCenter defaultCenter] postNotificationName:ReadNotification object:nil];
-}
-- (IBAction)sendUnread:(id)sender {
+- (IBAction)sendUnread:(UIButton *)sender {
     [[NSNotificationCenter defaultCenter] postNotificationName:UnreadNotification object:nil];
 }
 

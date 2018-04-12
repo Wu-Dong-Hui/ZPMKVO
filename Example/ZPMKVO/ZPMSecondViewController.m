@@ -7,6 +7,7 @@
 //
 
 #import "ZPMSecondViewController.h"
+#import "Marco.h"
 
 @interface ZPMSecondViewController ()
 
@@ -17,6 +18,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[NSNotificationCenter defaultCenter] addObserverForName:ReadNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        NSLog(@"%@", note.name);
+        [self setTabBadge:nil];
+    }];
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:UnreadNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        NSLog(@"%@", note.name);
+        [self setTabBadge:@"1"];
+    }];
+}
+
+- (void)setTabBadge:(NSString *)badge {
+    self.navigationController.tabBarItem.badgeValue = badge;
+}
+
+
+- (void)dealloc {
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+- (IBAction)setUnread:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:UnreadNotification object:nil];
+}
+- (IBAction)setRead:(id)sender {
+    [[NSNotificationCenter defaultCenter] postNotificationName:ReadNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning {

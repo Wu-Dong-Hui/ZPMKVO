@@ -1,5 +1,5 @@
 //
-//  ZPMFirstViewController.m
+//  ZPMSendReadViewController.m
 //  ZPMKVO_Example
 //
 //  Created by Roy on 2018/4/12.
@@ -33,16 +33,8 @@
 - (void)setTabBadge:(NSString *)badge {
     self.navigationController.tabBarItem.badgeValue = badge;
 }
-
-
-- (void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
-- (IBAction)sendRead:(id)sender {
+- (IBAction)sendRead:(UIButton *)sender {
     [[NSNotificationCenter defaultCenter] postNotificationName:ReadNotification object:nil];
-}
-- (IBAction)sendUnread:(id)sender {
-    [[NSNotificationCenter defaultCenter] postNotificationName:UnreadNotification object:nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,0 +1,22 @@
+{
+  "name": "ZPMKVO",
+  "version": "0.1.0",
+  "summary": "A short description of ZPMKVO.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Wu-Dong-Hui/ZPMKVO",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wu-Dong-Hui": "donghui.wu@zhaopin.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/Wu-Dong-Hui/ZPMKVO.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZPMKVO/Classes/**/*"
+}

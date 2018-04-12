@@ -1,0 +1,6 @@
+framework module ZPMKVO {
+  umbrella header "ZPMKVO-umbrella.h"
+
+  export *
+  module * { export * }
+}
