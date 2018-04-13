@@ -9,19 +9,17 @@
 /* Begin PBXBuildFile section */
 		019218B08672D70F713EA0E424E3260E /* Pods-ZPMKVO_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55082487BBAD2A0E499788FC77C73E4D /* Pods-ZPMKVO_Example-dummy.m */; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		06EE6814DD4A37AE55259FA52A706361 /* ZPMKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 9211E2B1E45E39387C76D5BB46E1018A /* ZPMKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		079B1DC93B6A6AACDD0A200CF97BFB6E /* ZPMKVO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C24EBCBB8A5B55872EDCFAB2CF31147 /* ZPMKVO-dummy.m */; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		1F1A636FE2831061F76C7273F26597A5 /* NSObject+ZPMKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D8BC24FDF72F4007D850B46D55882A /* NSObject+ZPMKVO.m */; };
 		2360358A9C55AC5CC82AB6A0C823E78C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		29ADB5DDCFC9C5BA93751DB8B98626A9 /* ZPMKVO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEA619B36D15308C91E37D82EDECF87 /* ZPMKVO-dummy.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		433B843A75ACE6BEF5AEB55431CA2E80 /* NSObject+ZPMKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C79AA93F141C6FF05AC3A39800D7584 /* NSObject+ZPMKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		6812346BD377282040C92831B816C3C2 /* Pods-ZPMKVO_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 667C8960516013E1370F7617E685FF73 /* Pods-ZPMKVO_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6CC4FF83815D3304E27AAAABF9AC4EDA /* UITextField+ZPMKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D4636F56B60271AB01C5432F4C93C8 /* UITextField+ZPMKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		79C8AF5E9930E68FF00F33E8C2D0C4C4 /* Pods-ZPMKVO_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 264E530E42E118E969F6852D69175494 /* Pods-ZPMKVO_Tests-dummy.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
@@ -30,8 +28,6 @@
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EFCB1C377618C461838F25EAB9DA256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		A2294D0DF5BE10E3EE08927B77BEC34C /* UITextField+ZPMKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = AADB8092B918FD4FE90D798BFFE9A04D /* UITextField+ZPMKVO.m */; };
-		A4EBE17524265CD2CBB6AAF88D640946 /* NSObject+ZPMKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD56E952643D14B7229D9805B218861 /* NSObject+ZPMKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		AA6B5072D89028E3836A9333A686AA9E /* Pods-ZPMKVO_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9046C77DB5032826AA1DBDDCABC7E13F /* Pods-ZPMKVO_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
@@ -41,7 +37,8 @@
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E3411C73E66F49AD5F3689AA79F89189 /* ZPMKVO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC345D1429A0C0F023EF4700BE60B3AC /* ZPMKVO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E41B42B5E16C4064FB60E1FCFB09D676 /* NSObject+ZPMKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE26955E0FA314CD4EFB78F0BA9341F /* NSObject+ZPMKVO.m */; };
+		EABCFE1AC5B3DFF7DC119C735FB792B9 /* ZPMKVO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A06F5C00D20C0D05ADD0F713F0E8457 /* ZPMKVO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,46 +61,45 @@
 /* Begin PBXFileReference section */
 		04D238452920D598F89F4E993C9DED42 /* Pods-ZPMKVO_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMKVO_Example-resources.sh"; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0969F6FA39B13D966FA0A61EE69501DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		13534F338A1AEA14B49378385C9D4477 /* ZPMKVO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPMKVO.xcconfig; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		1DD4CFBF72FC25450F718AD57655F948 /* ZPMKVO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPMKVO-prefix.pch"; sourceTree = "<group>"; };
 		1E115ADD4D7EF9DBDF39A28907A398C9 /* Pods-ZPMKVO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMKVO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		264E530E42E118E969F6852D69175494 /* Pods-ZPMKVO_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPMKVO_Tests-dummy.m"; sourceTree = "<group>"; };
-		2C24EBCBB8A5B55872EDCFAB2CF31147 /* ZPMKVO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPMKVO-dummy.m"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		3DD56E952643D14B7229D9805B218861 /* NSObject+ZPMKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZPMKVO.h"; path = "ZPMKVO/Classes/NSObject+ZPMKVO.h"; sourceTree = "<group>"; };
 		3E253F7F7301F0943B78906B0A46E526 /* ZPMKVO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZPMKVO.framework; path = ZPMKVO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42AA0429D5B5F07BE3EB12A1B0B20A9B /* Pods-ZPMKVO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPMKVO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		45D4636F56B60271AB01C5432F4C93C8 /* UITextField+ZPMKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+ZPMKVO.h"; path = "ZPMKVO/Classes/UITextField+ZPMKVO.h"; sourceTree = "<group>"; };
 		46FCDCFC9539872665EC14ADE3439520 /* Pods-ZPMKVO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMKVO_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4ABF8520CE82B37BE7C19E564AC973E7 /* ZPMKVO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZPMKVO.modulemap; sourceTree = "<group>"; };
+		4C79AA93F141C6FF05AC3A39800D7584 /* NSObject+ZPMKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZPMKVO.h"; path = "ZPMKVO/Classes/NSObject+ZPMKVO.h"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		55082487BBAD2A0E499788FC77C73E4D /* Pods-ZPMKVO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPMKVO_Example-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5943F6E2272DCFBC08840D0774A8DA1D /* ZPMKVO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZPMKVO.modulemap; sourceTree = "<group>"; };
 		5F91AC3313132AAC59D69D9672B308D7 /* Pods-ZPMKVO_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZPMKVO_Tests.modulemap"; sourceTree = "<group>"; };
 		667C8960516013E1370F7617E685FF73 /* Pods-ZPMKVO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPMKVO_Tests-umbrella.h"; sourceTree = "<group>"; };
 		671A72C9505E770BE194F01F43485678 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6992BB0E8E0328F493885CB3F086099A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A77ED09C6BD08B6B9EEB51ED9E97D0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7140F178DB3AF924855599E197CA4248 /* ZPMKVO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPMKVO-prefix.pch"; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		7A06F5C00D20C0D05ADD0F713F0E8457 /* ZPMKVO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPMKVO-umbrella.h"; sourceTree = "<group>"; };
+		7BE26955E0FA314CD4EFB78F0BA9341F /* NSObject+ZPMKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZPMKVO.m"; path = "ZPMKVO/Classes/NSObject+ZPMKVO.m"; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7F89EC48CCCDD1F8F240EB292F45FF80 /* Pods-ZPMKVO_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMKVO_Tests-resources.sh"; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		9046C77DB5032826AA1DBDDCABC7E13F /* Pods-ZPMKVO_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZPMKVO_Example-umbrella.h"; sourceTree = "<group>"; };
-		9211E2B1E45E39387C76D5BB46E1018A /* ZPMKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZPMKVO.h; path = ZPMKVO/Classes/ZPMKVO.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98ED0CAF40E0CB2635428FA35037B2C8 /* Pods-ZPMKVO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMKVO_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A319B0615C6F0F92D46B939C29178643 /* Pods-ZPMKVO_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMKVO_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AADB8092B918FD4FE90D798BFFE9A04D /* UITextField+ZPMKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+ZPMKVO.m"; path = "ZPMKVO/Classes/UITextField+ZPMKVO.m"; sourceTree = "<group>"; };
 		B6BCAC082D902E883901438381444DB3 /* Pods_ZPMKVO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPMKVO_Tests.framework; path = "Pods-ZPMKVO_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -111,17 +107,15 @@
 		C40CE6D051F42EAC137183EC816FC9DD /* Pods-ZPMKVO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPMKVO_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CEEA619B36D15308C91E37D82EDECF87 /* ZPMKVO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPMKVO-dummy.m"; sourceTree = "<group>"; };
 		CF17571BD5F137027BB3A109C05B800C /* Pods-ZPMKVO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPMKVO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D7DA1A24791542973D3F23192B534497 /* ZPMKVO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPMKVO.xcconfig; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		DC345D1429A0C0F023EF4700BE60B3AC /* ZPMKVO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPMKVO-umbrella.h"; sourceTree = "<group>"; };
 		E20BB6B82939B52357CCE6E954C51465 /* Pods-ZPMKVO_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPMKVO_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E692CD6607A8EC30479844CF2D4645BC /* Pods-ZPMKVO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPMKVO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E7365BEEA7D239E09798A3A3307D0755 /* Pods-ZPMKVO_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPMKVO_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EFA6F0B2FD1E081F75E1B5AFC4EC3851 /* Pods_ZPMKVO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZPMKVO_Example.framework; path = "Pods-ZPMKVO_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0D8BC24FDF72F4007D850B46D55882A /* NSObject+ZPMKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZPMKVO.m"; path = "ZPMKVO/Classes/NSObject+ZPMKVO.m"; sourceTree = "<group>"; };
 		F4A49AB3932D48CB8117F1E93A7AA2A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,14 +158,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		016736580FB3153F90C92AAE33FCEE5D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3D3B2D0FB75B09F080C9935F1030CFC7 /* ZPMKVO */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,15 +191,26 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		3D3B2D0FB75B09F080C9935F1030CFC7 /* ZPMKVO */ = {
+		302052E2D13AEC9CE74A6AAE4120EE81 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DD56E952643D14B7229D9805B218861 /* NSObject+ZPMKVO.h */,
-				F0D8BC24FDF72F4007D850B46D55882A /* NSObject+ZPMKVO.m */,
-				45D4636F56B60271AB01C5432F4C93C8 /* UITextField+ZPMKVO.h */,
-				AADB8092B918FD4FE90D798BFFE9A04D /* UITextField+ZPMKVO.m */,
-				9211E2B1E45E39387C76D5BB46E1018A /* ZPMKVO.h */,
-				F7597C153BF9BB4D0E9FA1F0CE56A729 /* Support Files */,
+				6992BB0E8E0328F493885CB3F086099A /* Info.plist */,
+				4ABF8520CE82B37BE7C19E564AC973E7 /* ZPMKVO.modulemap */,
+				13534F338A1AEA14B49378385C9D4477 /* ZPMKVO.xcconfig */,
+				CEEA619B36D15308C91E37D82EDECF87 /* ZPMKVO-dummy.m */,
+				1DD4CFBF72FC25450F718AD57655F948 /* ZPMKVO-prefix.pch */,
+				7A06F5C00D20C0D05ADD0F713F0E8457 /* ZPMKVO-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPMKVO";
+			sourceTree = "<group>";
+		};
+		3CE98E503372FF086BAF4328AC277B28 /* ZPMKVO */ = {
+			isa = PBXGroup;
+			children = (
+				4C79AA93F141C6FF05AC3A39800D7584 /* NSObject+ZPMKVO.h */,
+				7BE26955E0FA314CD4EFB78F0BA9341F /* NSObject+ZPMKVO.m */,
+				302052E2D13AEC9CE74A6AAE4120EE81 /* Support Files */,
 			);
 			name = ZPMKVO;
 			path = ../..;
@@ -237,11 +234,19 @@
 			path = "Target Support Files/Pods-ZPMKVO_Example";
 			sourceTree = "<group>";
 		};
+		728E692DE3BBCA3E4E898EC98BDDBDDC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CE98E503372FF086BAF4328AC277B28 /* ZPMKVO */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				016736580FB3153F90C92AAE33FCEE5D /* Development Pods */,
+				728E692DE3BBCA3E4E898EC98BDDBDDC /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				FD85FB3DB061CD03DEA12691823A5B38 /* Products */,
@@ -316,20 +321,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		F7597C153BF9BB4D0E9FA1F0CE56A729 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0969F6FA39B13D966FA0A61EE69501DF /* Info.plist */,
-				5943F6E2272DCFBC08840D0774A8DA1D /* ZPMKVO.modulemap */,
-				D7DA1A24791542973D3F23192B534497 /* ZPMKVO.xcconfig */,
-				2C24EBCBB8A5B55872EDCFAB2CF31147 /* ZPMKVO-dummy.m */,
-				7140F178DB3AF924855599E197CA4248 /* ZPMKVO-prefix.pch */,
-				DC345D1429A0C0F023EF4700BE60B3AC /* ZPMKVO-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZPMKVO";
-			sourceTree = "<group>";
-		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,14 +343,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2EE4D53154A15123E93DAF7CD7FA9241 /* Headers */ = {
+		4B1763EB7032D431E22FAE7AF160D182 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EBE17524265CD2CBB6AAF88D640946 /* NSObject+ZPMKVO.h in Headers */,
-				6CC4FF83815D3304E27AAAABF9AC4EDA /* UITextField+ZPMKVO.h in Headers */,
-				E3411C73E66F49AD5F3689AA79F89189 /* ZPMKVO-umbrella.h in Headers */,
-				06EE6814DD4A37AE55259FA52A706361 /* ZPMKVO.h in Headers */,
+				433B843A75ACE6BEF5AEB55431CA2E80 /* NSObject+ZPMKVO.h in Headers */,
+				EABCFE1AC5B3DFF7DC119C735FB792B9 /* ZPMKVO-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +408,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D375E0C494371686B2A42471AAD54391 /* Build configuration list for PBXNativeTarget "ZPMKVO" */;
 			buildPhases = (
-				BAADB303486F4B59C77C7D91CF6584DA /* Sources */,
+				E4DA861F1FED5763EE679822A4D58B49 /* Sources */,
 				7E7DE00AFBBA98C860F9E9333CDCD41C /* Frameworks */,
-				2EE4D53154A15123E93DAF7CD7FA9241 /* Headers */,
+				4B1763EB7032D431E22FAE7AF160D182 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -505,16 +494,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAADB303486F4B59C77C7D91CF6584DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F1A636FE2831061F76C7273F26597A5 /* NSObject+ZPMKVO.m in Sources */,
-				A2294D0DF5BE10E3EE08927B77BEC34C /* UITextField+ZPMKVO.m in Sources */,
-				079B1DC93B6A6AACDD0A200CF97BFB6E /* ZPMKVO-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D9CAC7D9E249F33B41A2C31CCFE0304E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,6 +515,15 @@
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DA861F1FED5763EE679822A4D58B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41B42B5E16C4064FB60E1FCFB09D676 /* NSObject+ZPMKVO.m in Sources */,
+				29ADB5DDCFC9C5BA93751DB8B98626A9 /* ZPMKVO-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -747,7 +735,7 @@
 		};
 		2C09E13C8054FC88BFFD94B36049693D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7DA1A24791542973D3F23192B534497 /* ZPMKVO.xcconfig */;
+			baseConfigurationReference = 13534F338A1AEA14B49378385C9D4477 /* ZPMKVO.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -780,7 +768,7 @@
 		};
 		50214E84B4383D3107EA1DCD2FB574FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7DA1A24791542973D3F23192B534497 /* ZPMKVO.xcconfig */;
+			baseConfigurationReference = 13534F338A1AEA14B49378385C9D4477 /* ZPMKVO.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

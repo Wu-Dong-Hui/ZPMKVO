@@ -9,7 +9,8 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 
-
+NSString *const kZPMKVOClassPrefix = @"ZPMKVOClassPrefix_";
+NSString *const kZPMKVOAssociatedObservers = @"ZPMKVOAssociatedObservers";
 
 @interface ZPMObservationInfo : NSObject
 

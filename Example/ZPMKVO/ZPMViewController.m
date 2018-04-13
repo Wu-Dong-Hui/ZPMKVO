@@ -10,10 +10,26 @@
 #import <ZPMKVO/NSObject+ZPMKVO.h>
 #import "Marco.h"
 
+
+@interface Person: NSObject
+@property (nonatomic, copy) NSString *name;
+@end
+
+@implementation Person
+- (instancetype)initWithName:(NSString *)name {
+    if (self = [super init]) {
+        self.name = name;
+    }
+    return self;
+}
+@end
+
+
+
+
 @interface ZPMViewController ()
-@property (weak, nonatomic) IBOutlet UITextField *name;
-@property (weak, nonatomic) IBOutlet UITextField *password;
-@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (strong, nonatomic) UIButton *button;
+@property (nonatomic, strong) Person *person;
 
 @end
 
@@ -24,15 +40,24 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.person = [[Person alloc] initWithName:@"Li"];
+    
+    
     __weak typeof(self) weakSelf = self;
     
-    [self.name ZPM_addObserver:self forKey:@"text" withBlock:^(id observedObject, NSString *observedKey, id oldValue, id newValue) {
+    self.button = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.button.frame = CGRectMake(10, 100, 300, 30);
+    [self.button setTitle:[NSString stringWithFormat:@"Press me to change name %@", self.person.name] forState:UIControlStateNormal];
+    [self.button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [self.button addTarget:self action:@selector(changeTitle:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.button];
+    
+    [self.person ZPM_addObserver:self forKey:@"name" withBlock:^(id observedObject, NSString *observedKey, id oldValue, id newValue) {
         [weakSelf showAlert:observedObject observerKey:observedKey oldValue:oldValue newValue:newValue];
     }];
     
-    [self.password ZPM_addObserver:self forKey:@"text" withBlock:^(id observedObject, NSString *observedKey, id oldValue, id newValue) {
-        [weakSelf showAlert:observedObject observerKey:observedKey oldValue:oldValue newValue:newValue];
-    }];
+    
     
     [[NSNotificationCenter defaultCenter] addObserverForName:ReadNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
         NSLog(@"%@", note.name);
@@ -53,7 +78,7 @@
     dispatch_async(dispatch_get_main_queue(), ^{
         NSLog(@"%@.%@ chanaged from %@ to %@", [observerObject class], key, old, new);
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:[NSString stringWithFormat:@"%@.%@ chanaged from %@ to %@", [observerObject class], key, old, new] preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             
         }];
         [alert addAction:cancel];
@@ -62,13 +87,15 @@
         }];
     });
 }
-- (IBAction)loginClick:(UIButton *)sender {
-    ZPMViewController *vc = [[ZPMViewController alloc] init];
-    [self.navigationController pushViewController:vc animated:true];
+- (void)changeTitle:(UIButton *)sender {
+    NSArray *names = @[@"Li Lei", @"Han Meimei", @"Tom", @"John", @"Tony"];
+    self.person.name = names[arc4random() % (names.count)];
     
+    [sender setTitle:[NSString stringWithFormat:@"Press me to change name %@", self.person.name] forState:UIControlStateNormal];
 }
+
 - (void)dealloc {
-    [self.name ZPM_removeObserver:self forKey:@"text"];
+    [self.person ZPM_removeObserver:self forKey:@"text"];
     NSLog(@"%@", self.class);
 }
 - (void)didReceiveMemoryWarning

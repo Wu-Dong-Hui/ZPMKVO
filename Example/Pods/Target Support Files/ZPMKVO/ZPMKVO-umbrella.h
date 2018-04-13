@@ -11,8 +11,6 @@
 #endif
 
 #import "NSObject+ZPMKVO.h"
-#import "UITextField+ZPMKVO.h"
-#import "ZPMKVO.h"
 
 FOUNDATION_EXPORT double ZPMKVOVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZPMKVOVersionString[];

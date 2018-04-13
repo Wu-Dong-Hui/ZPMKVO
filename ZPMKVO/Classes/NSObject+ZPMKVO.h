@@ -7,10 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ZPMKVO.h"
-
-NSString *const kZPMKVOClassPrefix = @"ZPMKVOClassPrefix_";
-NSString *const kZPMKVOAssociatedObservers = @"ZPMKVOAssociatedObservers";
+typedef void(^ZPMObservingBlock)(id observedObject, NSString *observedKey, id oldValue, id newValue);
 
 @interface NSObject (ZPMKVO)
 
