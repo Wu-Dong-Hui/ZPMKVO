@@ -18,3 +18,5 @@ typedef void(^ZPMObservingBlock)(id observedObject, NSString *observedKey, id ol
 - (void)ZPM_removeObserver:(NSObject *)observer forKey:(NSString *)key;
 
 @end
+
+// Test1
